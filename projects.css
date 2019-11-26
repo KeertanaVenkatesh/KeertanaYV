@@ -1,12 +1,12 @@
 /*for desktop*/
 @font-face{
-    font-family: 'Lato';
-    src: url('/public/fonts/Lato-Bold.ttf');
+    font-family: Lato;
+    src: url('Lato-Regular.ttf');
 }
 body {
     margin: 0vw;
     padding: 0vw;
-    font-family: 'Lato';
+    font-family: Lato;
     font-style: normal;
     font-weight:normal;
 }
@@ -86,8 +86,8 @@ body {
 /*for mobile*/
 @media screen and (max-width:640px) {
     @font-face{
-        font-family: 'Lato';
-        src: url('/public/fonts/Lato-Bold.ttf');
+        font-family: Lato;
+        src: url('Lato-Regular.ttf');
     }
     body {
         margin: 0vw;
