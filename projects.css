@@ -8,7 +8,7 @@ body {
     padding: 0vw;
     font-family: Lato;
     font-style: normal;
-    font-weight:normal;
+    font-weight:bold;
 }
 .main {
     width: 100%;
@@ -94,7 +94,7 @@ body {
         padding: 0vw;
         font-family: 'Lato';
         font-style: normal;
-        font-weight:normal;
+        font-weight:bold;
     }
     .main {
         width: 100%;
