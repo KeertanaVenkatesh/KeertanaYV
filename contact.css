@@ -1,0 +1,233 @@
+/*for desktop*/
+@font-face{
+    font-family: 'Lato';
+    src: url('/public/fonts/Lato-Regular.ttf');
+}
+.body{
+    margin: 0vw;
+    padding: 0vw;
+    font-family: 'Lato';
+    font-weight:normal;
+    font-style: normal;
+}
+.main {
+    width: 100%;
+    margin: auto;
+}
+.intro1 {
+    width: 100%;
+    margin:auto;
+    display: grid;
+    grid: auto/50% 50%;
+}
+.txt-container{
+    grid-area: 1/1;
+    width: 100%;
+    height: 38.5vw;
+    background-color: #458e9b;
+    float: left;
+}
+. mylogo{
+    grid-area: 1/2;
+    background-color: white;
+    text-align:center;
+}
+.mylogo img{
+    width: 70%;
+    margin-top: 2vw;
+    margin-left: 8vw;
+
+}
+.txt-container1{
+    margin: 3vw;
+    margin-top: 7vw;
+    margin-left: 17.5vw;
+}
+.txt-container1 h4{
+    color: white;
+    line-height: 2vw;
+}
+.txt-container2 {
+    margin: 0.5vw;
+    text-align: center;
+}
+.txt-container2 .name{
+    width: 60%;
+    margin:auto;
+}
+.txt-container2 .name input{
+    width: 100%;
+    height: 30%;
+    font-size: 0.7vw;
+    font-style: italic;
+    padding: 0.5vw;
+    padding-left: 1vw;  
+    border: none;
+    border-radius:7px;  
+}
+.txt-container2 .email{
+    width: 60%;
+    margin: auto;
+}
+.txt-container2 .email input{
+    width: 100%;
+    height: 30%;
+    margin-top: 0.7vw;
+    font-size: 0.7vw;
+    font-style: italic;
+    padding: 0.5vw;
+    padding-left: 1vw;  
+    border: none;
+    border-radius:7px; 
+}
+.txt-container2 .subject{
+    width: 60%;
+    margin: auto;
+}
+.txt-container2 .subject input{
+    width: 100%;
+    height: 30%;
+    margin-top: 0.7vw;
+    font-size: 0.7vw;
+    font-style: italic;
+    padding: 0.5vw;
+    padding-left: 1vw;  
+    border: none;
+    border-radius:7px; 
+}
+.txt-container2 .message{
+    width: 60%;
+    margin: auto;
+}
+.txt-container2 .message input{
+    width: 90%;
+    height: 50%;
+    margin-top: 0.7vw;
+    font-size: 0.7vw;
+    font-style: italic;
+    padding: 4vw;
+    padding-left: 1vw;  
+    border: none;
+    border-radius:7px; 
+}
+
+
+
+@media screen and (max-width:640px){
+    @font-face{
+        font-family: 'Lato';
+        src: url('/public/fonts/Lato-Regular.ttf');
+    }
+    .body{
+        margin: 0vw;
+        padding: 0vw;
+        font-family: 'Lato';
+        font-weight:normal;
+        font-style: normal;
+    }
+    .main {
+        width: 100%;
+        margin: auto;
+    }
+    .intro1 {
+        width: 100%;
+        margin:auto;
+        display: grid;
+        grid: auto/50% 50%;
+    }
+    .txt-container{
+        grid-area: 1/1;
+        width: 100%;
+        height: 38.5vw;
+        background-color: #458e9b;
+        float: left;
+        position: absolute;
+        margin-top: 78vw;
+        height:auto;
+    }
+    .mylogo{
+        width: 100%;
+        height: 150%;
+        background-color: white;
+        text-align:center;
+        margin-top: 20vw;
+        margin-left: 20vw;
+    }
+    .mylogo img{
+        width: 100%;
+        height: auto;
+        margin-top: 2vw;
+        margin-left: 4vw;
+    }
+    .txt-container1{
+        width:100%;
+        height: 100vw;
+        margin: 3vw;
+        margin-top: 7vw;
+        margin-left: 12vw;
+    }
+    .txt-container1 h4{
+        color: white;
+        font-size: 4vw;
+        line-height: 6vw;
+    }
+    .txt-container2 {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        margin-top: -70vw;
+    }
+    .txt-container2 .name{
+        width: 60%;
+        margin-top: -2vw;
+    }
+    .txt-container2 .name input{
+        width: 100%;
+        font-size: 2.5vw;
+        font-style: italic;
+        border: none;
+        border-radius:7px; 
+        padding: 2vw; 
+        margin-left: -8vw;
+    }
+    .txt-container2 .email{
+        width: 60%;
+        margin-top:2vw;
+    }
+    .txt-container2 .email input{
+        width: 100%;
+        font-size: 2.5vw;
+        font-style: italic;
+        padding: 2vw;
+        border: none;
+        border-radius:7px; 
+        margin-left: -8vw;
+    }
+    .txt-container2 .subject{
+        width: 60%;
+        margin-top:2vw;
+    }
+    .txt-container2 .subject input{
+        width: 100%;
+        font-size: 2.5vw;
+        font-style: italic;
+        padding: 2vw;
+        border: none;
+        border-radius:7px; 
+        margin-left: -8vw;
+    }
+    .txt-container2 .message{
+        width: 60%;
+        margin-top:2vw;
+    }
+    .txt-container2 .message input{
+        width: 100%;
+        height: 20vw;
+        font-size: 2.5vw;
+        font-style: italic;
+        padding: 2vw;
+        border: none;
+        border-radius:7px; 
+        margin-left: -8vw;
+    }    
+}

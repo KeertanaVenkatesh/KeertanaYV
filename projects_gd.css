@@ -1,0 +1,165 @@
+/*for desktop*/
+@font-face{
+    font-family: 'Lato';
+    src: url('/public/fonts/Lato-Regular.ttf');
+}
+body {
+    margin: 0vw;
+    padding: 0vw;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+}
+.main {
+    width: 100%;
+    background-color: #458e9b;
+}
+.ttt1{
+    width: 100%;
+    text-align: center;
+    margin:2vw;
+    margin-top: 3vw;
+}
+.ttt1 p{
+    font-size: 1vw;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.image-container1{
+    width: 100%;
+    margin: auto;
+    margin-top:0vw;
+    display: grid;
+    grid: auto/ auto auto auto;
+}
+.image-container1 .image11{
+    width: 89.6%;
+    margin-top:0vw;
+    margin-left: 3.5vw;
+}
+.image-container1 .image22{
+    width: 96.2%;
+    margin-top:0vw;
+    text-align: center;
+}
+.image-container1 .image33{
+    width: 100%;
+    margin-top:0vw;
+    margin-left: 0vw;
+}
+.image11 img{
+    width:100%;
+}
+.image22 img{
+    width:100%;
+}
+.image33 img{
+    width:100%;
+}
+.project-brief1{
+    width: 74%;
+    background: white;
+    border-radius: 2vw;
+    text-align:center;
+    margin-top: 1.7vw;
+    margin-bottom: 3.7vw;
+    margin-left: 15vw;
+}
+.project-brief1 .brief1{
+    padding: 0.2vw;
+}
+.brief1 p{
+    color:#458e9b;
+    font-weight: bold;
+} 
+
+
+/*for mobile*/
+@media screen and (max-width:640px) {
+@font-face{
+    font-family: 'Lato';
+    src: url('/public/fonts/Lato-Regular.ttf');
+}
+body {
+    margin: 0vw;
+    padding: 0vw;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+}
+.main {
+    width: 100%;
+    height: 250vw;
+    background-color: #458e9b;
+}
+.ttt1{
+    width: 100%;
+    height: auto;
+    margin-top: 0vw;
+    position: absolute;
+}
+.ttt1 p{
+    font-size: 4vw;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20vw;
+}
+.image-container1{
+    background-color: #458e9b;
+    width: 100%;
+    margin: auto;
+    margin-top:0vw;
+    display: grid;
+    grid: auto/ auto auto auto;
+}
+.image-container1 .image11{
+    width: 80%;
+    margin-top:28vw;
+    margin-left: 10vw;
+    position:absolute;
+}
+.image-container1 .image22{
+    width: 80%;
+    margin-left: 10vw;
+    margin-top:75vw;
+    text-align: center;
+    position: absolute;
+}
+.image-container1 .image33{
+    width: 80%;
+    margin-top:120vw;
+    margin-left: 10vw;
+    position: absolute;
+}
+.image11 img{
+    width:100%;
+}
+.image22 img{
+    width:100%;
+}
+.image33 img{
+    width:100%;
+}
+.project-brief1{
+    width: 90%;
+    background: white;
+    border-radius: 2vw;
+    text-align:center;
+    margin-top: 170vw;
+    margin-bottom: 3.7vw;
+    margin-left: 5vw;
+    position: absolute;
+
+}
+.project-brief1 .brief1{
+    padding: 4vw;
+}
+.brief1 p{
+    font-size: 4.5vw;
+    line-height: 6vw;
+    color:#458e9b;
+    font-weight: bold;
+} 
+}

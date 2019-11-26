@@ -1,0 +1,284 @@
+@font-face{
+    font-family: 'Lato';
+    src: url('/public/fonts/Lato-Regular.ttf');
+}
+body{
+    margin:0vw;
+    padding:0vw;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+}
+a {
+    color:#458e9b;
+    text-decoration: none;
+}
+a:hover{
+    color: #458e9b;
+    border-bottom: 4px solid #458e9b;
+}
+
+.active a{
+    color: #458e9b;
+    border-bottom: 4px solid #458e9b;
+}
+.header {
+    width: 100%;
+    background-color: #b0cfd4;
+    display: grid;
+    grid: auto/ auto auto auto auto;
+    position: relative;
+}
+.logo {
+    width: 5.5%;
+    padding: 0.5vw;
+}
+.logo img {
+    width: 100%; 
+}
+.about {
+    grid-area: 1/2;
+    margin: auto;
+    font-size: 1vw;   
+    font-weight:bold;
+    color: #458e9b;
+}
+.projects {
+    grid-area: 1/3;
+    margin: auto;
+    font-size: 1vw;
+    font-weight:bold;
+    color: #458e9b;
+}
+.contact {
+    grid-area: 1/4;
+    margin: auto;
+    font-size: 1vw;
+    font-weight:bold;
+    color: #458e9b;
+}
+.footer {
+    width: 100%;
+    background-color: #b0cfd4;
+    display: grid;
+    grid: auto/ auto auto auto;
+}
+.location {
+    width: 100%;
+    padding: 0.3vw;
+}
+.location img {
+    width:8.8%;
+    padding: 0.1vw;
+    margin: 1vw;
+}
+.location p {
+    width: 100%;
+    font-size: 0.8vw;  
+    justify-content: left;
+    margin-top: -3.5vw;
+    margin-left: 5vw;
+    font-weight: bold;
+    color:#458e9b;
+}
+.call {
+    width: 100%;
+    padding: 0.2vw;
+}
+.call img {
+    width: 6%;
+    margin-top: 1.5vw;
+    margin-left: 12vw;
+}
+.call p {
+    width: 100%;
+    font-size: 0.9vw;  
+    justify-content: center;
+    margin-top: -2.2vw;
+    margin-left: 16vw;
+    font-weight: bold;
+     color:#458e9b;
+}
+.media {
+    width: 100%;
+    display: grid;
+    grid: auto/auto auto auto auto auto auto auto auto;
+}
+.media .mail {
+    grid-area: 1/6;
+    margin-top: 0.6vw;
+    margin-left: 0.4vw;
+    width: 50%;
+    padding: 0.25vw; 
+}
+.media .mail img{
+    width: 70%;
+    margin: 0.5vw;
+}
+.media .facebook {
+    grid-area: 1/7;
+    width: 50%;
+    margin-top: 1vw;
+    margin-left:1vw;
+}
+.media .facebook img{
+    width: 60%;
+    margin: 0.5vw;
+}
+.media .instagram {
+    grid-area: 1/8;
+    width: 50%;
+    margin-top:0.8vw;
+    margin-left: 0.8vw;
+}
+.media .instagram img{
+    width: 55%;
+    margin: 0.8vw;
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+    @font-face{
+        font-family: 'Lato';
+        src: url('/public/fonts/Lato-Regular.ttf');
+    }
+    body{
+        margin:0vw;
+        padding:0vw;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: normal;
+    }
+    a {
+        color:#458e9b;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #458e9b;
+        border-bottom: 4px solid #458e9b;
+    }
+    .active a{
+        color: #458e9b;
+        border-bottom: 4px solid #458e9b;
+    }
+    .header{
+        width: 100%;
+        height:15vw;
+        background-color: #b0cfd4;
+        display: grid;
+        grid: auto/ auto auto auto auto;
+        position: absolute;
+        display: none;
+    }
+    .logo {
+        width: 8%;
+        padding: 4vw;
+    }
+    .logo img {
+        width: 100%; 
+    }
+    .about {
+        margin: auto;
+        font-size: 0.5vw;   
+        font-weight:bold;
+        color: #458e9b;
+    }
+    .projects {
+        margin: auto;
+        font-size: 1vw;
+        font-weight:bold;
+        color: #458e9b;
+    }
+    .contact {
+        margin: auto;
+        font-size: 1vw;
+        font-weight:bold;
+        color: #458e9b;
+    }
+    .footer {
+        width: 100%;
+        height: 15vw;
+        background-color: #b0cfd4;
+        display: grid;
+        grid: auto/ auto auto auto;
+        left: 0;
+        bottom: 0;
+        position: fixed;
+    }
+    .location {
+        width: 100%;
+    }
+    .location img {
+        width:15%;
+        margin-left:1vw;
+        margin-top: 3vw;
+        padding: 1vw;
+    }
+    .location p {
+        width: 100%;
+        font-size: 1.5vw;  
+        justify-content: left;
+        margin-top: -7vw;
+        margin-left: 8vw;
+        font-weight: bold;
+        color:#458e9b;
+    }
+    .call {
+        width: 100%;
+        padding: 0.2vw;
+    }
+    .call img {
+        width: 15%;
+        margin-top: 4vw;
+        margin-left: -3vw;
+    }
+    .call p {
+        width: 100%;
+        font-size: 2vw;  
+        justify-content: center;
+        margin-top: -4.2vw;
+        margin-left: 2vw;
+        font-weight: bold;
+         color:#458e9b;
+    }
+    .media {
+        width: 100%;
+        display: grid;
+        grid: auto/auto auto auto auto auto auto auto auto;
+    }
+    .media .mail {
+        grid-area: 1/6;
+        margin-top: 3.5vw;
+        margin-left: -3vw;
+        width: 70%;
+        padding: 0.25vw; 
+    }
+    .media .mail img{
+        width: 100%;
+        margin: 0.5vw;
+    }
+    .media .facebook {
+        grid-area: 1/7;
+        width: 70%;
+        margin-top: 3.5vw;
+        margin-left:-1.5vw;
+    }
+    .media .facebook img{
+        width: 100%;
+        margin: 0.5vw;
+    }
+    .media .instagram {
+        grid-area: 1/8;
+        width: 70%;
+        margin-top:1.5vw;
+        margin-left: -1vw;
+    }
+    .media .instagram img{
+        width: 90%;
+        margin-top: 2.5vw;
+    }
+
+}
+
